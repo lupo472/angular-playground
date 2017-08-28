@@ -1,5 +1,5 @@
 <div>
-  <input #myInput type="text" >
+  <input #myInput type="text" [(ngModel)]="app_root_message">
   <button (click)="onClick(myInput.value)">Click me!</button>
   {{app_root_message}}
 </div>
